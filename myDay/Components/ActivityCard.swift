@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct DraggableCard: View {
   let id: Int
   @Binding var positions: [Int: CGPoint]
