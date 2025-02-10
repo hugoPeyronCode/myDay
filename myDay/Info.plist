@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>CFBundleIdentifier</key>
+   <string>yourAppIdentifier</string>
+   <key>UTExportedTypeDeclarations</key>
+   <array>
+       <dict>
+           <key>UTTypeIdentifier</key>
+           <string>com.yourapp.activity</string>
+           <key>UTTypeDescription</key>
+           <string>Activity Type</string>
+           <key>UTTypeConformsTo</key>
+           <array>
+               <string>public.data</string>
+           </array>
+       </dict>
+   </array>
+</dict>
+</plist>

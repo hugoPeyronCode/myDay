@@ -92,7 +92,10 @@ struct ActivityCard: View {
       }
     }
     .onChange(of: progress) { newProgress, _ in
-        streakManager.updateActivityStreak(activity: activity, completed: newProgress >= 1.0)
+        // Only update streak if progress reaches 100%
+        if newProgress >= 1.0 {
+            streakManager.updateActivityStreak(activity: activity, completed: true)
+        }
     }
     .animation(.spring(duration: 0.6), value: progress)
     .draggable(activity) {

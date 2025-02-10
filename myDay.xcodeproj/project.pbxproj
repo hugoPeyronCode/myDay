@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		50338FF12D5A630700B5353E /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50338FF02D5A630400B5353E /* Untitled.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		50338E3E2D51155700B5353E /* myDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50338FF02D5A630400B5353E /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		50338FEF2D5A629D00B5353E /* Exceptions for "myDay" folder in "myDay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 50338E3D2D51155700B5353E /* myDay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		50338E402D51155700B5353E /* myDay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				50338FEF2D5A629D00B5353E /* Exceptions for "myDay" folder in "myDay" target */,
+			);
 			path = myDay;
 			sourceTree = "<group>";
 		};
@@ -32,6 +50,7 @@
 		50338E352D51155700B5353E = {
 			isa = PBXGroup;
 			children = (
+				50338FF02D5A630400B5353E /* Untitled.swift */,
 				50338E402D51155700B5353E /* myDay */,
 				50338E3F2D51155700B5353E /* Products */,
 			);
@@ -119,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50338FF12D5A630700B5353E /* Untitled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +275,7 @@
 				DEVELOPMENT_TEAM = YA24P24868;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myDay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +305,7 @@
 				DEVELOPMENT_TEAM = YA24P24868;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myDay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -85,4 +85,5 @@ struct ActivityGrid_Previews: View {
 
 #Preview {
   ActivityGrid_Previews()
+    .environmentObject(StreakManager())
 }

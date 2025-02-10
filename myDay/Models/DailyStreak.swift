@@ -56,6 +56,9 @@ class StreakManager: ObservableObject {
   }
 
   func updateActivityStreak(activity: Activities, completed: Bool) {
+    print("Updating streak for \(activity): completed=\(completed)")
+    print("Current streak: \(activityStreaks[activity]?.currentStreak ?? 0)")
+    print("Last completion: \(activityStreaks[activity]?.lastCompletionDate?.description ?? "nil")")
     var streak = activityStreaks[activity] ?? ActivityStreak()
     streak.updateStreak(completed: completed)
     activityStreaks[activity] = streak
